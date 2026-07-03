@@ -18,20 +18,6 @@ public class Player : CharacterBase
 
     void Update()
     {
-        void Update()
-        {
-            if (IsDead) return;
-
-            if (Input.GetMouseButtonDown(0))
-            {
-                MeleeAttack();
-            }
-
-            if (Input.GetMouseButtonDown(1))
-            {
-                RangeAttack();
-            }
-        }
 
         if (IsDead) return;
 

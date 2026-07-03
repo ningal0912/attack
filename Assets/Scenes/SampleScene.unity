@@ -383,38 +383,6 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
---- !u!1 &641369171 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5248889121653642490, guid: ab431bec5480e3d4789f20b013d46bf3, type: 3}
-  m_PrefabInstance: {fileID: 8151678020804135004}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &641369178
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 641369171}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,10 +601,7 @@ PrefabInstance:
     - {fileID: 4797767552004938707, guid: ab431bec5480e3d4789f20b013d46bf3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5248889121653642490, guid: ab431bec5480e3d4789f20b013d46bf3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 641369178}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab431bec5480e3d4789f20b013d46bf3, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
